@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="assets/images/icono.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+    <title> Vehìculos Deportivos </title>
+
+</head>
+
+<body>
+  <!--Main Container-->
+  <div class="container-fluid">
+    <!--Header-->
+    <header>
+        <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="http://assets.stickpng.com/images/5a00dbb90e8525eec2752ff4.png"  alt=""> Vehìculos Deportivos
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre Mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-bootstrap" href="#">Contactos</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!--Fin header-->
+
+
+    <!--Main- CARROUSEL-->
+<main id="main">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/images/Auto1.jpg" alt="Auto 1">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/Auto2.jpg" alt="Auto 2">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/Auto3.jpg" alt="Auto 3">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/images/Auto4.jpg" alt="Auto 4">
+          </div>
+        </div>
+      
+      </div>
+
+</main>
+    <br>
+
+    <!--Fin Main-->
+
+    <!--Galeria-->
+<h3 class="top-personajes_titulo">Vehìculos Muy Veloces...</h3>
+      <div class="card-group">
+
+        <div class="card">
+            <img class="card-img-top" src="https://i.pinimg.com/originals/2f/87/d5/2f87d55b81a3050e6a4724cb859befb7.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Jaguar XJ220 (350 km/h)</h5>
+            <p class="card-text">Su nombre no es otra cosa que su velocidad máxima traducida en millas por hora. Cuando nació en 1992, el Jaguar XJ220 nació con el plan de superar la barrera de las 200 mph/ 321 km/h, pero en su caso la velocidad máxima la puso nada menos que en los 350 km/h, toda una proeza para un superdeportivo de principios de los 90.
+			Para ello contaba con un motor V6 biturbo de 550 CV y una carrocería de líneas suaves para ofrecer un coeficiente aerodinámico de de solo 0,36 Cx.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+              
+        <div class="card">
+          <img class="card-img-top" src="https://c.tenor.com/2TwfbgQj6I0AAAAC/porsche-918.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Porsche 918 Spyder (350 km/h)</h5>
+            <p class="card-text">Cuando allá por 2013 Porsche abrió fuego con su primer hypercar híbrido pocos se imáginaban la época de hypercars que estaba a punto de comenzar junto a Ferrari y McLaren en un trío que pasaría a conocerse popularmente como "La santísima Trinidad". El Porsche 918 Spyder era de partida el menos amenazador de los tres con una potencia de 887 CV y una curiosa carrocería descapotable, pero su mecánica híbrida era más ambiciosa, combinando un V8 4.6 atmosférico y dos motores eléctricos -uno en cada eje- que ofrecían 286 CV a la fórmula y le permiten circular 30 km en modo eléctrico.
+			Aunque su velocidad sobre el papel era inferior a la de sus dos rivales algunos vídeos han demostrado que con el pack Weissach alcanza los 350 km/h.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <img class="card-img-top" src="https://c.tenor.com/DvzM3a82JwwAAAAC/mclaren-p1.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">McLaren P1 (350 km/h)</h5>
+            <p class="card-text">Tras el McLaren F1, Woking no se había atrevido a crear un deportivo de este calibre, de esos que hacen historia. Su nombre, McLaren P1, ya dejaba claro que su objetivo era ser una nueva referencia en la marca y en los deportivos de la época. Lo hizo con un tren motriz híbrido con un V8 de 3.8 litros y un motor eléctrico para ofrecer conjuntamente 916 CV de potencia y 900 Nm de par en un coche que solo pesaba 1.395 kg gracias al uso extensivo de la fibra de carbono.
+			Además cuenta con un botón de "KERS" como el de la F1 para liberar toda la potencia de su motor eléctrico y también un sistema DRS en su alerón trasero.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="https://i.pinimg.com/originals/77/f5/58/77f5586fe7b43e5014ddf36ccb6ecca5.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">LaFerrari (350 km/h)</h5>
+            <p class="card-text">El sucesor del Enzo, primer Ferrari híbrido de la historia y tercer miembro de la Santísima Trinidad de los hypercars aún hoy sigue fascinando tanto a fanáticos de la casa del cavallino como a todo amante de los coches que se precie, por mucho que otros Ferrari más modernos hayan ido llegando tras él, pero hablamos de un modelo de una gran estirpe de deportivos que forman la élite de Ferrari. El Ferrari LaFerrari se presentó con un V12 atmosférico de 6.3 litros y una unidad KERS compuesta por dos motores eléctricos que ofrecían en chutes cortos unos 163 CV extra.
+			El resultado total eran 963 CV de potencia y 900 Nm de par que le permitían hacer el 0 a 100 en solo 2,8 segundos y alcanzar unos 350 km/h de velocidad máxima.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        
+      </div>
+
+    
+    <div class="card">
+        <img class="card-img-top" src="https://c.tenor.com/nmqy-bgKgk0AAAAC/bugatti-chiron-bugatti.gif" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Bugatti Veyron (407 km/h)</h5>
+        <p class="card-text">Qué podemos decir que el coche que lo comenzó todo, el coche que puso en boca de todos el término hypercar. El Bugatti Veyron nació como la loca idea del Grupo Volkswagen a principios de los 2000, tras comprar la marca francesa, de crear un coche con más de 1.000 CV que fuera capaz de romper la barrera de los 400 km/h. Y lo logró en 2005, después de que el Veyron, en manos del experimentado piloto de pruebas Uwe Novacki, alcanzara los 407 km/h en la pista de pruebas de Volkswagen de Ehra-Lessien. 
+		El resto es historia y ahora muchos deportivos son capaces de superar esa cifra, pero el Veyron, con su colosal y único motor W16 8.0 armado con cuatro turbocompresores, fue el primero en cruzar esa frontera.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="https://i.pinimg.com/originals/dd/82/da/dd82da996075fc8bba22a26b0b176974.gif" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Bugatti Chiron Super Sport 300+ (490,48 km/h)</h5>
+        <p class="card-text">Si bien su récord no fue acreditado por Guinness Word Record como sí ocurrió con el caso del Tuatara, esta versión hipervitaminada -con 1.600 CV en su W16 y una carrocería alargada entre otras mejoras- del Bugatti Chiron consiguió en 2019 rozar los 500 km/h en el circuito de pruebas de Ehra-Lessien, una pista famosa para los modelos de Bugatti y uno de los pocos rincones del mundo donde puedes llevar a más de 400 km/h un coche.
+		La firma de Molsheim consiguió con este Bugatti Chiron Super Sport 300+ alcanzar por primera vez en la historia los 490 km/h -490,48 km/h para ser exactos- para convertirse así, y hasta la fecha, en la velocidad más alta que haya alcanzado un coche de producción. Y es que tras el récord se convirtió en un modelo de serie limitada a 30 unidades a unos 3,5 millones de euros la pieza, aunque éstas se limitan a "solo" 440 km/h.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+
+</div>
+
+  <!--Fin Galeria-->
+
+  <!--Galeria de Videos-->
+
+  <h3 class="top-personajes_titulo">Videos</h3>
+  <div class="card-group">
+    <div class="card">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PkkV1vLHUvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <div class="card-body">
+        <h5 class="card-title">BUGATTI Chiron 0-400-0 km/h in 42 seconds – A WORLD RECORD</h5>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1x4d02uEZws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+      <div class="card-body">
+        <h5 class="card-title">Worlds Fastest Car - SSC Ultimate Aero TT (High Speed Testing)</h5>
+         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/up76Py9DRD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="card-body">
+        <h5 class="card-title">Koenigsegg Agera RS 457 km/h</h5>
+           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+
+  </div>
+
+     <div class="card-group">
+    <div class="card">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YmhAWKca998" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+        <div class="card-body">
+        <h5 class="card-title">Toyota Supra 3000 hp Twin Turbo</h5>
+         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+
+    <div class="card">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JNvPfMq3BzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="card-body">
+        <h5 class="card-title">Supercar leaving meeting, SUPRA 1700 HP</h5>
+         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+
+    <div class="card">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Q8DOsUiOt-8 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+         <div class="card-body">
+        <h5 class="card-title">This is how you leave a Dodge Dealership.</h5>
+         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <!--Fin Galeria de Videos-->
+
+  
+  
+  <!-- Boton Ver Serie-->
+
+
+    <!--Fin Boton Ver Serie-->
+    <hr/>
+
+<!--Redes Sociales-->
+
+<h3>Mis Redes Sociales</h3>
+    <hr />
+        <div class="text-center center-block">
+
+                <a href="#"><i class="fa fa-linkedin-square fa-3x social"></i></a>
+                <a href="#"><i class="fa fa-youtube-square fa-3x social"></i></a>
+                <a href="#"><i class="fa fa-facebook-square fa-3x social"></i></a>
+	            <a href="#"><i class="fa fa-twitter-square fa-3x social"></i></a>
+                <a href="#"><i class="fa fa-github-square fa-3x social"></i></a>
+                <a href="#"><i class="fa fa-envelope-square fa-3x social"></i></a>
+        </div>
+           <hr/>
+         
+<!--Fin Redes Sociales-->
+
+
+
+    <!--Footer-->
+    <footer id="footer" class="pb-4 pt-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class=" col-12 col-lg">
+                    <a href="#">Home</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Sobre Mi</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Galeria</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Cursos</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Contactos</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Estudiantes</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Fin footer-->
+
+  </div>
+    <!--Main Container-->
+
+
+    <!-- Optional JavaScript -->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js " integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc " crossorigin="anonymous "></script>
+  
+
+</body>
+
+</html>
